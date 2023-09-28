@@ -20,6 +20,23 @@
     height: 27rem;
     padding-top: 150px;
 }
+.image_section{
+    margin-top: 20px;
+    height: 50vh;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    gap: 30px;   
+}
+.image_section img{
+    max-height: 350px;
+    /* width: 20%; */
+    border-radius: 30px;
+}
+.image_section img:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
 
 #topone {
     background-image: linear-gradient(180deg, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url('https://dubaibusinessetup.com/wp-content/uploads/2021/04/dbs-about-pic.jpg.webp');
@@ -289,8 +306,8 @@ a:hover {
 #lastbar {
     width: 100%;
     height: 10vh;
-    background-color: #222;
-    margin-top: 30px;
+    background-color: #dddada;
+    /* margin-top: 30px; */
 }
 
 .lasttag {
@@ -303,7 +320,7 @@ a:hover {
 }
 
 .lasttag i {
-    color: #fff;
+    color: #000000;
     font-size: 22px;
 }
 
@@ -349,7 +366,100 @@ a:hover {
 .nav-link:hover {
     color: #5f75f1;
 }
+.hiring{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
 
+}
+.hiring_1{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 93%;
+    height: 25vh;
+    align-items: center;
+    background-color: #ababab;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    /* background-image: url("https://img.freepik.com/free-photo/we-are-hiring-digital-collage_23-2149667063.jpg?size=626&ext=jpg"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.button_container{
+    border-color: transparent;
+    cursor: pointer;
+    
+}
+.botton-container .button {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: fit-content;
+}
+.botton-container .button .circle {
+    -webkit-animation: iconAnimationOut .5s ease-in-out, backgroundAnimation 5s ease-in-out infinite;
+    animation: iconAnimationOut .5s ease-in-out, backgroundAnimation 5s ease-in-out infinite;
+    background: linear-gradient(-45deg,#f3684a,#ff886d,#f15432);
+    background-size: 200% 200%;
+    border-radius: 50px;
+    display: flex;
+    height: 70px;
+    position: absolute;
+    visibility: visible;
+    width: 70px;
+}
+.botton-container .button .button-label {
+    align-items: center;
+    color: #fff;
+    font-family: raleway;
+    font-size: 24px;
+    font-weight: 600;
+    height: 70px;
+    line-height: 70px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 35px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    width: 100%;
+}
+.botton-container .button .right-arrow {
+    background-image: url(/static/media/right-arrow.9779e1d….svg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    height: 100%;
+    -webkit-transform: translateX(14px);
+    transform: translateX(14px);
+    width: 52px;
+}
+.hiring_1 h5{
+    font-size: 20px;
+    font-weight: 200;
+    color: #ee0000;
+}
+.hiring_1 h1{
+    font-style: oblique;
+    font-weight: 200;
+    color: #464646;
+}
+.hiring_1:hover{
+    transform: scale(1.1);
+    transition: all 1s ease;
+}
+.hiring_1 button{
+    width: 100px;
+    height: 28px;
+    border: none;
+    border-radius: 5px;
+}
 @media only screen and (max-width: 650px) {
     #toptwo {
         padding-left: 0px;
