@@ -1,0 +1,401 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+
+}
+.image1{
+    width: 4em;
+    height: 4em;
+}
+.fa-brands {
+    margin: 0 10px;
+    font-size: 1.2em;
+}
+.headings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 27rem;
+    padding-top: 150px;
+}
+
+#topone {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url('https://dubaibusinessetup.com/wp-content/uploads/2021/04/dbs-about-pic.jpg.webp');
+    height: 80vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.tagss a {
+    flex-direction: row;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 12px;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: #4d8cf5;
+}
+
+.top1-2 {
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    scroll-behavior: none;
+}
+
+.top1-2 h1 {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    overflow: hidden;
+}
+
+.top1-2 p {
+    font-family: Nunito, sans-serif;
+    font-size: 15px;
+}
+
+.arrow {
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    top: 80px;
+}
+
+.arrow i {
+    color: #fff;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn a {
+    text-decoration: none;
+}
+
+.btn1 {
+    color: #ffffff;
+}
+
+#toptwo {
+    height: auto;
+    overflow: hidden;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0%;
+    padding-top: 0%;
+}
+
+#toptwo h1 {
+    font-weight: 200;
+    font-size: 1.5em;
+    color: #373a34;
+    font-style: normal;
+    font-weight: 600;
+}
+
+#about {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    color: #373a34;
+    font-size: 14px;
+    text-transform: uppercase;
+    /* padding-left: 590px; */
+    overflow: hidden;
+}
+
+#about h2 {
+    overflow: hidden;
+}
+
+.top2-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.top2-2 h1 {
+    overflow: hidden;
+
+}
+
+.top2-2 p {
+    /* padding-left: 0;
+    line-height: 20px;
+    margin-left: 50px; */
+    text-align: justify;
+}
+
+.top2-2_li {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    color: #8c9088;
+}
+
+.top2-2_li ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.top2-2_li li:hover {
+    color: #333;
+}
+
+.image img {
+    height: 70vh;
+    /* width: 80%; */
+    border-radius: 30px;
+}
+
+#about h2 {
+    font-size: 1.3rem;
+}
+
+#service {
+    background-color: #5f3636;
+}
+
+.serv {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.para {
+    padding: 80px;
+}
+
+.serv h2 {
+    font-family: Nunito, sans-serif;
+    color: #333;
+    font-size: 28px;
+    font-weight: 550;
+}
+
+.serv p {
+    margin-top: 15px;
+    font-style: italic;
+    line-height: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: #5c5c5c;
+    font-size: 18px;
+}
+
+.iconpara {
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.iconpara1 {
+    border-radius: 30px;
+    padding: 30px;
+    max-width: 370px;
+    border: rgba(174, 174, 174, 0.2) solid;
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    margin-top: 30px;
+    /* border: 1px solid; */
+}
+
+.iconpara1:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px 0px;
+}
+
+.iconpara1 a {
+    text-decoration: none;
+    color: #190000;
+    margin-top: 20px;
+    width: 33%;
+
+}
+
+.iconpara1 a:hover {
+    color: #005acf;
+}
+
+.iconpara1_img {
+    height: 13vh;
+    width: 80%;
+
+}
+
+.iconpara1_text p {
+    text-align: justify;
+}
+
+.iconpara1 img {
+    height: 11vh;
+    /* width: 50%; */
+}
+
+.iconpara1 .dot {
+    width: 40%;
+}
+
+.iconpara1 h2 {
+    margin-top: 20px;
+    font-family: Nunito, sans-serif;
+    color: #333;
+    font-size: 20px;
+}
+
+.iconpara1 p {
+    margin-top: 6px;
+    font-family: Nunito, sans-serif;
+    font-style: normal;
+    color: #5c5c5c;
+    font-size: 13px;
+    line-height: 25px;
+    font-weight: 100;
+}
+
+.lastbtn button {
+    margin: 30px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: #4d8cf5;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+}
+
+#lastbar {
+    width: 100%;
+    height: 10vh;
+    background-color: #222;
+    margin-top: 30px;
+}
+
+.lasttag {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.lasttag i {
+    color: #fff;
+    font-size: 22px;
+}
+
+.lasttag i:hover {
+    color: #005acf;
+}
+
+.lastline {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: small;
+}
+
+.lastline p {
+    color: #777;
+}
+
+.lastline a {
+    color: #160bad;
+}
+
+.navbar-nav li {
+    padding-left: 10px;
+
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    text-align: justify;
+    padding: 0 5px;
+    align-items: flex-end;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #5f75f1;
+}
+
+@media only screen and (max-width: 650px) {
+    #toptwo {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    main {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .iconpara1 {
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        height: auto;
+    }
+
+    .para {
+        padding: 0;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .nav-link {
+        color: #fff;
+    }
+
+    .nav-link :hover {
+        color: #5f75f1;
+    }
+
+    .image {
+        /* width: auto; */
+        display: flex;
+        justify-content: center;
+    }
+
+    .serv p {
+        padding: 0% 20px;
+    }
+
+    .top2-2_li {
+        display: flex;
+        flex-direction: row;
+        gap: 0px;
+        font-size: .8em;
+    }
+}
