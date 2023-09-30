@@ -50,13 +50,14 @@
 }
 
 #topone {
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url('https://dubaibusinessetup.com/wp-content/uploads/2021/04/dbs-about-pic.jpg.webp');
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url('https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&w=800');
     height: 80vh;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
+/* 'https://dubaibusinessetup.com/wp-content/uploads/2021/04/dbs-about-pic.jpg.webp' */
 
 .tagss a {
     flex-direction: row;
@@ -78,15 +79,22 @@ a:hover {
     flex-direction: column;
     color: #fff;
     scroll-behavior: none;
+    width: 80%;
 }
 
 .top1-2 h1 {
     margin-top: 0.5rem;
     margin-bottom: 1rem;
-    font-weight: 700;
+    font-weight: 400;
+    font-style: normal;
+    font-family:Arial, Helvetica, sans-serif;
     line-height: 1.2;
     text-align: center;
     overflow: hidden;
+}
+.top1-2 h1:hover {
+    transform: scale(1.1);
+    transition: all 1s ease;
 }
 
 .top1-2 p {
@@ -313,41 +321,17 @@ a:hover {
     text-transform: uppercase;
     border: none;
 }
-
-#lastbar {
-    width: 100%;
-    height: 10vh;
-    background-color: #2f2f2f;
-    margin-top: 30px;
+.lastbar{
+    background-color: rgb(238, 238, 238);
 }
-
-.lasttag {
-    margin-top: 30px;
+.footer{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 25px;
+    gap: 600px;
 }
-
-.lasttag i {
-    color: #ffffff;
-    font-size: 22px;
+.footer .aboutus:hover{
+    transform: scale(0.9);
+    transition: all 0.8s ease-in-out;
 }
-
-.lasttag i:hover {
-    color: #005acf;
-}
-
-.lastline {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    font-size: small;
-}
-
 .navbar-nav {
     display: flex;
     justify-content: flex-end;
@@ -408,6 +392,10 @@ a:hover {
     #toptwo {
         padding-left: 0px;
         padding-right: 0px;
+    }
+    .footer{
+        display: flex;
+        gap: 0;
     }
 
     main {
