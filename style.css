@@ -323,8 +323,10 @@ a:hover {
 }
 .lastbar{
     background-color: rgb(238, 238, 238);
+    margin-top: 20px;
 }
 .footer{
+    
     display: flex;
     gap: 600px;
 }
