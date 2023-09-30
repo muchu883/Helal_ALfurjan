@@ -306,7 +306,7 @@ a:hover {
 #lastbar {
     width: 100%;
     height: 10vh;
-    background-color: #cbcbcb;
+    background-color: #4b4848;
     /* margin-top: 30px; */
 }
 
@@ -320,7 +320,7 @@ a:hover {
 }
 
 .lasttag i {
-    color: #000000;
+    color: #ffffff;
     font-size: 22px;
 }
 
@@ -467,5 +467,10 @@ a:hover {
     }
     .image_section{
         height: auto;
+}
+.headings{
+    height: 20rem;
+    /* height: 20rem; */
+    overflow: hidden;
 }
 }
