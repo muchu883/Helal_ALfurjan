@@ -387,6 +387,7 @@ a:hover {
         flex-direction: row;
         gap: 0px;
         font-size: .9em;
+        color: #190000;
     }
 
     .image_section {
