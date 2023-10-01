@@ -3,9 +3,44 @@
     padding: 0;
     overflow-x: hidden;
     scroll-behavior: smooth;
-
 }
 
+#topone {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('https://w0.peakpx.com/wallpaper/642/878/HD-wallpaper-museum-of-the-future-opens-in-dubai.jpg');
+    height: 80vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    text-align: justify;
+    padding: 0 5px;
+    align-items: flex-end;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #5f75f1;
+}
+.btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn a {
+    text-decoration: none;
+}
+
+.btn1 {
+    color: #ffffff;
+}
 .image1 {
     width: 5em;
     height: 4em;
@@ -44,19 +79,6 @@
     transition: all 0.5s ease;
 }
 
-#apply:hover {
-    color: #5f75f1;
-    /* color: #4d8cf5; */
-}
-
-#topone {
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url('https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&w=800');
-    height: 80vh;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
 /* 'https://dubaibusinessetup.com/wp-content/uploads/2021/04/dbs-about-pic.jpg.webp' */
 
 .tagss a {
@@ -74,7 +96,6 @@ a:hover {
 .top1-2 {
     display: flex;
     justify-content: center;
-    /* text-align: center; */
     align-items: center;
     flex-direction: column;
     color: #fff;
@@ -85,13 +106,14 @@ a:hover {
 .top1-2 h1 {
     margin-top: 0.5rem;
     margin-bottom: 1rem;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: serif;
     line-height: 1.2;
     text-align: center;
     overflow: hidden;
 }
+
 .top1-2 h1:hover {
     transform: scale(1.1);
     transition: all 1s ease;
@@ -101,31 +123,6 @@ a:hover {
     font-family: Nunito, sans-serif;
     font-size: 15px;
 }
-
-.arrow {
-    text-align: center;
-    font-size: 40px;
-    position: relative;
-    top: 80px;
-}
-
-.arrow i {
-    color: #fff;
-}
-
-.btn {
-    display: flex;
-    justify-content: space-between;
-}
-
-.btn a {
-    text-decoration: none;
-}
-
-.btn1 {
-    color: #ffffff;
-}
-
 #toptwo {
     height: auto;
     overflow: hidden;
@@ -153,7 +150,6 @@ a:hover {
     color: #373a34;
     font-size: 14px;
     text-transform: uppercase;
-    /* padding-left: 590px; */
     overflow: hidden;
 }
 
@@ -198,18 +194,12 @@ a:hover {
 
 .image img {
     height: 70vh;
-    /* width: 80%; */
     border-radius: 30px;
 }
 
 #about h2 {
     font-size: 1.3rem;
 }
-
-#service {
-    background-color: #5f3636;
-}
-
 .serv {
     margin-top: 50px;
     display: flex;
@@ -257,7 +247,6 @@ a:hover {
     flex-direction: column;
     height: 450px;
     margin-top: 30px;
-    /* border: 1px solid; */
 }
 
 .iconpara1:hover {
@@ -312,90 +301,33 @@ a:hover {
     font-weight: 100;
 }
 
-.lastbtn button {
-    margin: 30px;
-    padding: 10px 30px;
-    border-radius: 5px;
-    background-color: #4d8cf5;
-    color: #fff;
-    text-transform: uppercase;
-    border: none;
-}
-.lastbar{
-    background-color: rgb(238, 238, 238);
+
+.lastbar {
+    background-color: rgba(234, 234, 234, 0.979);
     margin-top: 20px;
 }
-.footer{
-    
+.footer {
     display: flex;
     gap: 600px;
 }
-.footer .aboutus:hover{
+
+.footer .aboutus:hover {
     transform: scale(0.9);
     transition: all 0.8s ease-in-out;
 }
-.navbar-nav {
-    display: flex;
-    justify-content: flex-end;
-    align-content: center;
-    text-align: justify;
-    padding: 0 5px;
-    align-items: flex-end;
+.contact a{
+    color: #696565;
 }
-
-.nav-link {
-    color: #fff;
+.contact a:hover{
+color: #005acf;
 }
-
-.nav-link:hover {
-    color: #5f75f1;
-}
-
-.hiring {
-    height: 20vh;
-}
-
-.hiring_1 {
-    align-items: center;
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 15px;
-}
-
-.hiring_1 h5 {
-    font-size: 20px;
-    font-weight: 400;
-    color: #808080;
-}
-
-.hiring_1 h1 {
-    font-style: normal;
-    font-weight: 700;
-    color: #aba4a4;
-}
-
-.hiring_1:hover {
-    transform: scale(1.1);
-    transition: all 1s ease;
-}
-
-.hiring_1 button {
-    width: 100px;
-    height: 28px;
-    border: none;
-    border-radius: 5px;
-    background-color: #d6d6d6;
-
-}
-
 @media only screen and (max-width: 650px) {
     #toptwo {
         padding-left: 0px;
         padding-right: 0px;
     }
-    .footer{
+
+    .footer {
         display: flex;
         gap: 0;
     }
@@ -459,5 +391,8 @@ a:hover {
 
     .hiring {
         height: auto;
+    }
+    .lastbar{
+        text-align: justify;
     }
 }
