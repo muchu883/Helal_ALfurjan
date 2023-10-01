@@ -13,6 +13,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    overflow: hidden;
 }
 
 .navbar-nav {
@@ -22,37 +23,52 @@
     text-align: justify;
     padding: 0 5px;
     align-items: flex-end;
+    overflow: hidden;
 }
 
 .nav-link {
     color: #fff;
+    overflow: hidden;
+
 }
 
 .nav-link:hover {
     color: #5f75f1;
+    overflow: hidden;
+
 }
 
 .btn {
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
+
 }
 
 .btn a {
     text-decoration: none;
+    overflow: hidden;
+
 }
 
 .btn1 {
     color: #ffffff;
+    overflow: hidden;
+
 }
 
 .image1 {
     width: 6em;
     height: 5em;
+    overflow: hidden;
+
 }
 
 .fa-brands {
     margin: 0 10px;
     font-size: 1.2em;
+    overflow: hidden;
+
 }
 
 .headings {
@@ -60,7 +76,9 @@
     justify-content: center;
     align-items: center;
     /* height: 27rem; */
-    padding-top: 150px;
+    padding-top: 250px;
+    overflow: hidden;
+
 }
 
 .image_section {
@@ -70,12 +88,16 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+    overflow: hidden;
+
 }
 
 .image_section img {
     max-height: 350px;
     /* width: 20%; */
     border-radius: 30px;
+    overflow: hidden;
+
 }
 
 .image_section img:hover {
@@ -105,6 +127,8 @@ a:hover {
     color: #fff;
     scroll-behavior: none;
     width: 80%;
+    overflow: hidden;
+
 }
 
 .top1-2 h1 {
@@ -113,6 +137,8 @@ a:hover {
     /* line-height: 1.2; */
     text-align: center;
     /* overflow: hidden; */
+    overflow: hidden;
+
 }
 .top1-2 h1:hover {
     transform: scale(1.1);
@@ -122,6 +148,8 @@ a:hover {
 .top1-2 p {
     font-family: Nunito, sans-serif;
     font-size: 15px;
+    overflow: hidden;
+
 }
 
 #toptwo {
@@ -141,6 +169,8 @@ a:hover {
     color: #373a34;
     font-style: normal;
     font-weight: 600;
+    overflow: hidden;
+
 }
 
 #about {
@@ -162,15 +192,18 @@ a:hover {
     display: flex;
     flex-direction: column;
     gap: 30px;
-}
-
-.top2-2 h1 {
     overflow: hidden;
 
 }
 
+.top2-2 h1 {
+    overflow: hidden;
+}
+
 .top2-2 p {
     text-align: justify;
+    overflow: hidden;
+
 }
 
 .top2-2_li {
@@ -179,12 +212,16 @@ a:hover {
     gap: 50px;
     color: #8c9088;
     font-size: 1.1rem;
+    overflow: hidden;
+
 }
 
 .top2-2_li ul {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    overflow: hidden;
+
 }
 
 .top2-2_li li:hover {
@@ -194,10 +231,14 @@ a:hover {
 .image img {
     height: 70vh;
     border-radius: 30px;
+    overflow: hidden;
+
 }
 
 #about h2 {
     font-size: 1.3rem;
+    overflow: hidden;
+
 }
 
 .serv {
@@ -207,10 +248,14 @@ a:hover {
     align-items: center;
     flex-direction: column;
     text-align: center;
+    overflow: hidden;
+
 }
 
 .para {
     padding: 80px;
+    overflow: hidden;
+
 }
 
 .serv h2 {
@@ -218,6 +263,8 @@ a:hover {
     color: #333;
     font-size: 28px;
     font-weight: 550;
+    overflow: hidden;
+
 }
 
 .serv p {
@@ -227,6 +274,8 @@ a:hover {
     font-family: 'Open Sans', sans-serif;
     color: #5c5c5c;
     font-size: 18px;
+    overflow: hidden;
+
 }
 
 .iconpara {
@@ -236,6 +285,8 @@ a:hover {
     align-items: center;
     flex-direction: row;
     gap: 30px;
+    overflow: hidden;
+
 }
 
 .iconpara1 {
@@ -247,39 +298,55 @@ a:hover {
     flex-direction: column;
     height: 450px;
     margin-top: 30px;
+    overflow: hidden;
+
 }
 
 .iconpara1:hover {
     box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px 0px;
+    overflow: hidden;
+
 }
 
 .iconpara1 a {
     text-decoration: none;
     color: #190000;
     margin-top: 20px;
+    overflow: hidden;
+
 
 }
 
 .iconpara1 a:hover {
     color: #005acf;
+    overflow: hidden;
+
 }
 
 .iconpara1_img {
     height: 13vh;
     width: 80%;
+    overflow: hidden;
+
 
 }
 
 .iconpara1_text p {
     text-align: justify;
+    overflow: hidden;
+
 }
 
 .iconpara1 img {
     height: 11vh;
+    overflow: hidden;
+
 }
 
 .iconpara1 .dot {
     width: 40%;
+    overflow: hidden;
+
 }
 
 .iconpara1 h2 {
@@ -287,6 +354,8 @@ a:hover {
     font-family: Nunito, sans-serif;
     color: #333;
     font-size: 20px;
+    overflow: hidden;
+
 }
 .iconpara1 p {
     margin-top: 6px;
@@ -296,6 +365,8 @@ a:hover {
     font-size: 13px;
     line-height: 25px;
     font-weight: 100;
+    overflow: hidden;
+
 }
 .lastbar {
     background-color: rgba(234, 234, 234, 0.979);
@@ -309,37 +380,59 @@ a:hover {
 }
 .contact a {
     color: #696565;
+    overflow: hidden;
+
 }
 
 .contact a:hover {
     color: #005acf;
+    overflow: hidden;
+
 }
 .aboutus P{
     font-size: 13px;
     font-weight: 600;
+    overflow: hidden;
+
 }
 .workwith{
-      /* align-items: center; */
       display: flex;
-      gap: 26px;
       justify-content: center;
-      /* background-color: #5c5c5c; */
-      align-items: center;
-      height: 30vh;
-}
+      flex-direction: row;
+      gap: 30px;
+    overflow: hidden;
 
-.workwith:hover{
-    transform: scale(0.9);
-    transition: all 0.8s ease-in-out;
+}
+.workwith img{
+    height: 200px;
+    width: 150px;
+    overflow: hidden;
+
+}
+.workwith img:hover{
+    transform: scale(1.1);
+    transition: all .1s ease;
+    overflow: hidden;
+
 }
 .ourclients h1{
     font-size: 20px;
+    overflow: hidden;
+
 }
 @media only screen and (max-width: 650px) {
     .workwith{
         display: flex;
         flex-direction: column;
-        gap: 5px;
+        align-items: center;
+        gap: 0;
+    }
+    .workwith img{
+        height: 75px;
+        width: 65px;
+    }
+    .headings{
+        padding-top: 150px;
     }
     #toptwo {
         padding-left: 0px;
@@ -400,12 +493,6 @@ a:hover {
     .image_section {
         height: auto;
     }
-
-    .headings {
-        height: 20rem;
-        overflow: hidden;
-    }
-
     .modal_content {
         padding: 100px;
     }
