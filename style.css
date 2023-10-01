@@ -13,6 +13,7 @@
     background-size: cover;
     background-position: center;
 }
+
 .navbar-nav {
     display: flex;
     justify-content: flex-end;
@@ -29,6 +30,7 @@
 .nav-link:hover {
     color: #5f75f1;
 }
+
 .btn {
     display: flex;
     justify-content: space-between;
@@ -41,9 +43,10 @@
 .btn1 {
     color: #ffffff;
 }
+
 .image1 {
-    width: 5em;
-    height: 4em;
+    width: 6em;
+    height: 5em;
 }
 
 .fa-brands {
@@ -123,6 +126,7 @@ a:hover {
     font-family: Nunito, sans-serif;
     font-size: 15px;
 }
+
 #toptwo {
     height: auto;
     overflow: hidden;
@@ -169,9 +173,6 @@ a:hover {
 }
 
 .top2-2 p {
-    /* padding-left: 0;
-    line-height: 20px;
-    margin-left: 50px; */
     text-align: justify;
 }
 
@@ -180,6 +181,7 @@ a:hover {
     flex-direction: row;
     gap: 50px;
     color: #8c9088;
+    font-size: 1.1rem;
 }
 
 .top2-2_li ul {
@@ -200,6 +202,7 @@ a:hover {
 #about h2 {
     font-size: 1.3rem;
 }
+
 .serv {
     margin-top: 50px;
     display: flex;
@@ -257,7 +260,6 @@ a:hover {
     text-decoration: none;
     color: #190000;
     margin-top: 20px;
-    width: 33%;
 
 }
 
@@ -277,7 +279,6 @@ a:hover {
 
 .iconpara1 img {
     height: 11vh;
-    /* width: 50%; */
 }
 
 .iconpara1 .dot {
@@ -306,27 +307,33 @@ a:hover {
     background-color: rgba(234, 234, 234, 0.979);
     margin-top: 20px;
 }
+
 .footer {
     display: flex;
-    gap: 600px;
+    justify-content: space-between;
 }
 
 .footer .aboutus:hover {
     transform: scale(0.9);
     transition: all 0.8s ease-in-out;
 }
-.contact a{
+
+.contact a {
     color: #696565;
 }
-.contact a:hover{
-color: #005acf;
+
+.contact a:hover {
+    color: #005acf;
 }
+
 @media only screen and (max-width: 650px) {
     #toptwo {
         padding-left: 0px;
         padding-right: 0px;
     }
-
+    .top1-2 h1 {
+        font-size: larger;
+    }
     .footer {
         display: flex;
         gap: 0;
@@ -372,7 +379,7 @@ color: #005acf;
         display: flex;
         flex-direction: row;
         gap: 0px;
-        font-size: .8em;
+        font-size: .9em;
     }
 
     .image_section {
@@ -381,7 +388,6 @@ color: #005acf;
 
     .headings {
         height: 20rem;
-        /* height: 20rem; */
         overflow: hidden;
     }
 
@@ -392,7 +398,8 @@ color: #005acf;
     .hiring {
         height: auto;
     }
-    .lastbar{
+
+    .lastbar {
         text-align: justify;
     }
 }
