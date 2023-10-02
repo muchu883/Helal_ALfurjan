@@ -399,14 +399,14 @@ a:hover {
 
 }
 
-.workwith {
+/* .workwith {
     display: flex;
     justify-content: center;
     flex-direction: row;
     gap: 25px;
     overflow: hidden;
 
-}
+} */
 
 .workwith img {
     /* height: 200px;  */
