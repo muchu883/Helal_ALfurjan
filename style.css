@@ -6,7 +6,7 @@
 }
 
 #home {
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('https://w0.peakpx.com/wallpaper/642/878/HD-wallpaper-museum-of-the-future-opens-in-dubai.jpg');
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('assets/Dubai welcomes the Museum of the Future.png');
     height: 80vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -408,6 +408,7 @@ a:hover {
     flex-direction: row;
     gap: 25px;
     overflow: hidden;
+    width: 100%;
 }
 
 .workwith img {
