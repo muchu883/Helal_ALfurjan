@@ -5,7 +5,7 @@
     scroll-behavior: smooth;
 }
 
-#topone {
+#home {
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('https://w0.peakpx.com/wallpaper/642/878/HD-wallpaper-museum-of-the-future-opens-in-dubai.jpg');
     height: 80vh;
     width: 100%;
@@ -29,7 +29,7 @@
 .nav-link {
     color: #fff;
     overflow: hidden;
-
+    /* padding-right: 30px; */
 }
 
 .nav-link:hover {
