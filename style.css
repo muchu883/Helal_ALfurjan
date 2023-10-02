@@ -441,16 +441,18 @@ a:hover {
     overflow: hidden;
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 750px) {
     .headings {
         padding-top: 150px;
     }
-.workwith{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
+
+    .workwith {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
     #toptwo {
         padding-left: 0px;
         padding-right: 0px;
