@@ -1,10 +1,9 @@
 * {
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow-x: hidden;
     scroll-behavior: smooth;
 }
-
 
 #topone {
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('https://w0.peakpx.com/wallpaper/642/878/HD-wallpaper-museum-of-the-future-opens-in-dubai.jpg');
@@ -140,6 +139,7 @@ a:hover {
     overflow: hidden;
 
 }
+
 .top1-2 h1:hover {
     transform: scale(1.1);
     transition: all 1s ease;
@@ -356,6 +356,7 @@ a:hover {
     overflow: hidden;
 
 }
+
 .iconpara1 p {
     margin-top: 6px;
     font-family: Nunito, sans-serif;
@@ -367,16 +368,19 @@ a:hover {
     overflow: hidden;
 
 }
+
 .lastbar {
     background-color: rgba(234, 234, 234, 0.979);
     /* margin-top: 20px; */
     overflow: hidden;
 }
+
 .footer {
     display: flex;
     justify-content: space-between;
     overflow: hidden;
 }
+
 .contact a {
     color: #696565;
     overflow: hidden;
@@ -386,41 +390,46 @@ a:hover {
 .contact a:hover {
     color: #005acf;
     overflow: hidden;
-
 }
-.aboutus P{
+
+.aboutus P {
     font-size: 13px;
     font-weight: 600;
     overflow: hidden;
 
 }
-.workwith{
-      display: flex;
-      justify-content: center;
-      flex-direction: row;
-      gap: 25px;
+
+.workwith {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 25px;
     overflow: hidden;
 
 }
-.workwith img{
+
+.workwith img {
     /* height: 200px;  */
     width: 150px;
     overflow: hidden;
 
 }
-.workwith img:hover{
+
+.workwith img:hover {
     transform: scale(1.1);
     transition: all .0s ease;
     overflow: hidden;
 
 }
-.ourclients{
+
+.ourclients {
     padding-top: 30px;
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
-.ourclients h1{
+
+.ourclients h1 {
     font-style: normal;
     color: #373a34;
     font-size: 20px;
@@ -428,20 +437,25 @@ a:hover {
     overflow: hidden;
 
 }
-.clients{
+
+.clients {
     overflow: hidden;
 }
+
 @media only screen and (max-width: 650px) {
-    .headings{
+    .headings {
         padding-top: 150px;
     }
+
     #toptwo {
         padding-left: 0px;
         padding-right: 0px;
     }
+
     .top1-2 h1 {
         font-size: larger;
     }
+
     .footer {
         display: flex;
         gap: 0;
@@ -494,6 +508,7 @@ a:hover {
     .image_section {
         height: auto;
     }
+
     .modal_content {
         padding: 100px;
     }
