@@ -412,8 +412,8 @@ a:hover {
 }
 
 .workwith img {
-    /* height: 200px;  */
-    width: 150px;
+    height: 250px; 
+    width: 120px;
     overflow: hidden;
 
 }
@@ -422,7 +422,6 @@ a:hover {
     transform: scale(1.1);
     transition: all .0s ease;
     overflow: hidden;
-
 }
 
 .ourclients {
@@ -444,12 +443,78 @@ a:hover {
 .clients {
     overflow: hidden;
 }
+@keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .logos {
+    overflow: hidden;
+    padding: 60px 0;
+    background: white;
+    white-space: nowrap;
+    position: relative;
+    width: 80%;
+  }
+  
+  .logos:before,
+  .logos:after {
+    position: absolute;
+    top: 0;
+    width: 160px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+  }
+  
+  .logos:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(5, 5, 5, 0), white);
+  }
+  
+  .logos:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(5, 5, 5, 0), white);
+  }
+  
+  .logos:hover .slid{
+    animation-play-state: paused;
+  }
+  
+  .logos-slide {
+    display: inline-block;
+    animation: 30s slide infinite linear;
+  }
+  
+  .logos-slide img {
+    height: 50px;
+    margin: 0 40px;
+    /* animation: none; */
+  }
+
+  .logos-slide img {
+    height: 90px;
+    margin: 0 30px;
+}
 
 @media only screen and (max-width: 750px) {
     .headings {
         padding-top: 150px;
     }
-
+    .logos:before {
+        left: 0;
+        background: none;
+      }
+      
+      .logos:after {
+        right: 0;
+        background: none;
+      }
+      
     .workwith {
         display: flex;
         justify-content: center;
