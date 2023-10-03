@@ -412,10 +412,7 @@ a:hover {
 }
 
 .workwith img {
-    height: 250px; 
-    width: 120px;
     overflow: hidden;
-
 }
 
 .workwith img:hover {
@@ -491,13 +488,14 @@ a:hover {
   }
   
   .logos-slide img {
-    height: 50px;
+    height: 100px;
     margin: 0 40px;
     /* animation: none; */
   }
 
   .logos-slide img {
-    height: 90px;
+    height: 125px;
+    width: 105px;
     margin: 0 30px;
 }
 
