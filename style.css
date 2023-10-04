@@ -271,7 +271,7 @@ a:hover {
 
 .serv p {
     margin-top: 15px;
-    font-style: italic;
+    /* font-style: italic; */
     line-height: 20px;
     font-family: 'Open Sans', sans-serif;
     color: #5c5c5c;
